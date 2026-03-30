@@ -36,8 +36,8 @@ public class Student {
     public int getLowest() {
         return Math.min(mark1, Math.min(mark2, mark3));
     }
-}
-public class ReportCard {
+
+public class ReportCard 
 
     // this method takes a Student and prints their report
     public void printReport(Student s) {
@@ -77,10 +77,10 @@ public class ReportCard {
             return "FAIL ✗";
         }
     }
-}
+
 import java.util.Scanner;
 
-public class MainApp {
+public class MainApp 
 
     public static void main(String[] args) {
 
@@ -107,7 +107,7 @@ public class MainApp {
 
         sc.close();
     }
-}
+
 ```
 
 ### Line by line:
